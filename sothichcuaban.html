@@ -5,12 +5,36 @@
     <title>Title</title>
 </head>
 <body>
-<form>
-    <center > SỞ THÍCH CỦA BẠN</center>
-    Họ và Tên
-    <input type="text" name="yourname"><br>
-    Email
-    <input type="text" name="email">
-</form>
+<table style="border-style: solid">
+    <tr>
+       <TH colspan="4"> SỞ THÍCH CỦA BẠN</TH>
+    </tr>
+    <tr>
+    <td>Họ Và Tên</td>
+    <td colspan="3"><input></td>
+    </tr>
+    <tr>
+        <td > Email</td>
+        <td colspan="3"><input></td>
+    </tr>
+    <tr>
+        <td rowspan="4"> Sở Thích</td>
+        <td> <label><input name="check" type="checkbox"/> Thể Thao</label></td>
+        <td> <label><input name="check" type="checkbox"/> Âm Nhạc</label></td>
+        <td> <label><input name="check" type="checkbox"/>Đọc Sách </label></td>
+    </tr>
+    <tr>
+        <td> <label><input name="check" type="checkbox"/> Lướt web </label></td>
+        <td> <label><input name="check" type="checkbox"/> Chơi Game </label></td>
+        <td> <label><input name="check" type="checkbox"/> Điện Ảnh</label></td>
+    </tr>
+    <tr>
+        <td><label> <input name="check" type="checkbox"/> Du Lịch</label></td>
+    </tr>
+    <td> <button type="submit" name="submit" >Gửi Thông Tin</button></td>
+    <td> <button type="reset" name="submit">Nhập lại </td>
+
+
+</table>
 </body>
 </html>
